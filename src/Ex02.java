@@ -1,12 +1,12 @@
 
 import java.util.*;
-//¶Ã¼Æ²£¥Í¤T­Ó1~100¶¡ªº¥¿¾ã¼Æ¶Ã¼Æ¡A§PÂ_¨Ã¿é¥X¤T¼Æ¤¤¤§³Ì¤j­È¤Î³Ì¤p­È¡C
+//äº‚æ•¸ç”¢ç”Ÿä¸‰å€‹1~100é–“çš„æ­£æ•´æ•¸äº‚æ•¸ï¼Œåˆ¤æ–·ä¸¦è¼¸å‡ºä¸‰æ•¸ä¸­ä¹‹æœ€å¤§å€¼åŠæœ€å°å€¼ã€‚
 public class Ex02 {
 	public static void main(String[] args) {
 		Random rnd = new Random();
 		int[] array = new int[3];
 
-		System.out.print("¶Ã¼ÆºG¥Íªº¼Æ");
+		System.out.print("äº‚æ•¸ç”¢ç”Ÿçš„æ•¸");
 		for (int i = 0; i < array.length; i++) {
 			array[i] = rnd.nextInt(100) + 1;
 		}
@@ -27,6 +27,6 @@ public class Ex02 {
 			System.out.print(array[i] + " ");
 		}
 		System.out.println();
-		System.out.println("³Ì¤j­È:" + max + "\t³Ì¤p­È:" + min);
+		System.out.println("æœ€å¤§å€¼:" + max + "\tæœ€å°å€¼:" + min);
 	}
 }
